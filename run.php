@@ -31,7 +31,10 @@
             $url = "https://prnt.sc/";
             $execute = $url.$r_char.$r_int;
 
-            shell_exec("start ".$execute);
+            for ($i =0; $i < 5; $i++)
+            {
+                shell_exec("start ".$execute);
+            }  
         }
     }
 
