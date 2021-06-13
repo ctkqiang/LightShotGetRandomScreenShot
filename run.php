@@ -3,7 +3,7 @@
     {
         public static function random_char($length= 2)
         {
-            $characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            $characters = 'abcdefghijklmnopqrstuvwxyz';
             $charactersLength = strlen($characters);
             $randomString = '';
 
